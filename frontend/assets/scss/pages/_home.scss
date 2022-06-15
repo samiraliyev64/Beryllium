@@ -98,15 +98,21 @@ header {
 
 //Architecture Section
 //Carousel
-.architecture-carousel-indicators {
-    li {
-        width: 10px;
-        height: 10px;
-        border-radius: 100%;
-    }
+.carousel-item {
+    transition: all 0.2s ease-in-out !important;
+}
 
+.carousel-indicators {
     .active {
         background-color: grey;
+    }
+}
+
+.carousel-indicators {
+    li {
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 100%;
     }
 }
 
@@ -116,6 +122,22 @@ header {
     left: 3%;
     font-weight: 100;
     color: white;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #18222b;
+    height: 50px;
+    width: 50px !important;
+    top: 50% !important;
+}
+
+.carousel-control-prev {
+    left: 2% !important;
+}
+
+.carousel-control-next {
+    right: 2% !important;
 }
 
 //Buildings Section
