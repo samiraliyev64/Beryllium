@@ -1,0 +1,59 @@
+//Header
+header {
+    width: 100%;
+    background-color: blue;
+    height: 500px;
+}
+
+//Navbar
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkred;
+    padding: 50px 0;
+
+    ul {
+        display: flex;
+        gap: 30px;
+        font-size: 15px;
+
+        li {
+            list-style-type: none;
+
+            a {
+                color: grey;
+                text-decoration: none;
+                transition: all 0.2s ease;
+
+                &:hover {
+                    color: black;
+                }
+            }
+
+            #home {
+                color: black;
+            }
+        }
+    }
+
+    #beryllium-text {
+        color: black;
+    }
+}
+
+//Dropdowns
+#services-dropdown-content {
+    background-color: yellow;
+
+    ul {
+        display: block;
+    }
+}
+
+#dropdown-dropdown-content {
+    background-color: aqua;
+
+    ul {
+        display: block;
+    }
+}
