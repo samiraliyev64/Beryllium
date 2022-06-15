@@ -360,3 +360,32 @@ header {
   color: white;
   border-radius: 5px;
 }
+
+#copyrights {
+  background-color: #1A1A1A;
+  padding: 40px 0;
+}
+
+.copyrights-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #5C5556;
+  font-size: 13px;
+  width: 100%;
+}
+
+.copyrights-container .designed-by a {
+  text-decoration: none;
+  color: #3AB063;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-weight: 500;
+}
+
+.copyrights-container .designed-by a:hover {
+  color: white;
+}

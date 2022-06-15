@@ -355,3 +355,30 @@ header {
         border-radius: 5px;
     }
 }
+
+//Copyrights Section
+#copyrights {
+    background-color: #1A1A1A;
+    padding: 40px 0;
+}
+
+.copyrights-container {
+    display: flex;
+    justify-content: space-between;
+    color: #5C5556;
+    font-size: 13px;
+    width: 100%;
+
+    .designed-by {
+        a {
+            text-decoration: none;
+            color: #3AB063;
+            transition: all 0.4s ease;
+            font-weight: 500;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
