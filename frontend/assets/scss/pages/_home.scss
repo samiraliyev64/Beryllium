@@ -1,101 +1,3 @@
-//Header
-header {
-    width: 100%;
-    // background-color: blue;
-}
-
-//Navbar
-#navbar {
-    display: flex;
-    justify-content: space-between;
-    // background-color: darkred;
-    padding: 50px 0;
-
-    a {
-        text-decoration: none;
-    }
-
-    ul {
-        display: flex;
-        gap: 30px;
-        font-size: 15px;
-
-        li {
-            list-style-type: none;
-
-            a {
-                color: grey;
-                text-decoration: none;
-                transition: all 0.2s ease;
-
-                &:hover {
-                    color: black;
-                }
-            }
-
-            #home {
-                color: black;
-            }
-        }
-    }
-
-    #beryllium-text {
-        color: black;
-    }
-}
-
-//Dropdowns
-#services-dropdown {
-    position: relative;
-
-    &:hover #services-dropdown-content {
-        display: block;
-    }
-}
-
-#services-dropdown-content {
-    position: absolute;
-    top: 50px;
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-    display: none;
-    padding: 20px 35px;
-    z-index: 1;
-
-    ul {
-        display: block;
-
-        li {
-            width: 100px;
-        }
-    }
-}
-
-#dropdown-dropdown {
-    position: relative;
-
-    &:hover #dropdown-dropdown-content {
-        display: block;
-    }
-}
-
-#dropdown-dropdown-content {
-    background-color: aqua;
-    position: absolute;
-    top: 50px;
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-    display: none;
-    padding: 20px 35px;
-    z-index: 1;
-
-    ul {
-        display: block;
-    }
-}
-
 //Architecture Section
 //Carousel
 .carousel-item {
@@ -147,9 +49,19 @@ header {
         display: flex;
         gap: 30px;
 
+        h3 {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
         .buildings-card-item {
             width: 360.33px;
             height: 404.7px;
+
+            p {
+                color: #a7a6a6;
+                font-size: 14px;
+            }
         }
     }
 
@@ -159,28 +71,25 @@ header {
 
         p {
             position: relative;
-            font-size: 20px;
+            font-size: 18px;
             left: 18%;
-            width: 63%;
+            width: 65%;
+            color: #898989;
         }
     }
 }
 
 .buildings-carousel-indicators {
     li {
-        width: 10px;
-        height: 10px;
-        border-radius: 100%;
+        background-color: grey !important;
     }
 
-    .active {
-        background-color: grey;
-    }
+    margin-top:50px;
 }
 
 //News Section
 #news {
-    padding: 30px 0;
+    padding: 70px 0;
 }
 
 .news-testimonials-container {
@@ -214,6 +123,7 @@ header {
             text-decoration: none;
 
             h1 {
+                font-size: 25px;
                 transition: all 0.2s ease;
 
                 &:hover {
@@ -223,7 +133,7 @@ header {
         }
 
         h6 {
-            font-size: 14px;
+            font-size: 12px;
         }
     }
 
@@ -256,7 +166,7 @@ header {
 
         #text {
             text-align: left;
-            font-size: 20px;
+            font-size: 16px;
             width: 90%;
         }
 
@@ -297,109 +207,6 @@ header {
 
             &:hover {
                 color: black;
-            }
-        }
-    }
-}
-
-//Footer
-//Contact Section
-#contact {
-    background-color: #262626;
-}
-
-.contact-container {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 100px;
-    padding-bottom: 40px;
-
-    h3 {
-        color: white;
-        font-weight: 300;
-    }
-
-    ul {
-        padding: 5px 0;
-    }
-
-    li {
-        list-style-type: none;
-        color: #40D681;
-        font-size: 14px;
-        padding: 2px 0;
-    }
-}
-
-#beryllium-info {
-    width: 70%;
-
-    p {
-        width: 330px;
-        color: #747372;
-    }
-}
-
-#links {
-    position: relative;
-    left: 7%;
-    width: 100%;
-}
-
-#work {
-    position: relative;
-    left: 15%;
-    width: 100%;
-}
-
-#email {
-    position: relative;
-    left: 20%;
-    width: 100%;
-
-    input {
-        padding: 14px 20px;
-        font-size: 20px;
-        width: 280px;
-        border-radius: 7px;
-        outline: none;
-        border: none;
-    }
-
-    button {
-        margin-top: 5px;
-        background-color: #52D681;
-        border: none;
-        outline: none;
-        padding: 15px;
-        font-weight: bold;
-        color: white;
-        border-radius: 5px;
-    }
-}
-
-//Copyrights Section
-#copyrights {
-    background-color: #1A1A1A;
-    padding: 40px 0;
-}
-
-.copyrights-container {
-    display: flex;
-    justify-content: space-between;
-    color: #5C5556;
-    font-size: 13px;
-    width: 100%;
-
-    .designed-by {
-        a {
-            text-decoration: none;
-            color: #3AB063;
-            transition: all 0.4s ease;
-            font-weight: 500;
-
-            &:hover {
-                color: white;
             }
         }
     }
