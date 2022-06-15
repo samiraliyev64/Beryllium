@@ -244,3 +244,42 @@ header {
 .testimonial .testimonials-item #author {
   color: #B3B3BF;
 }
+
+#summary {
+  padding: 30px 0;
+}
+
+.summary-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.summary-container .summary-container-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.summary-container .summary-container-item i {
+  color: grey;
+  font-size: 32px;
+}
+
+.summary-container .summary-container-item p {
+  width: 90%;
+  color: #958477;
+}
+
+.summary-container .summary-container-item a {
+  text-decoration: none;
+  color: #7FD88D;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.summary-container .summary-container-item a:hover {
+  color: black;
+}

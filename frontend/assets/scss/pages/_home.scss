@@ -244,3 +244,38 @@ header {
 
     }
 }
+
+//Summary Section
+#summary {
+    padding: 30px 0;
+}
+
+.summary-container {
+    display: flex;
+
+    .summary-container-item {
+        display: flex;
+        gap: 20px;
+
+        i {
+            color: grey;
+            font-size: 32px;
+        }
+
+        p {
+            width: 90%;
+            color: #958477;
+        }
+
+        a {
+            text-decoration: none;
+            color: #7FD88D;
+            font-size: 14px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
