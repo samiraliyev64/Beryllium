@@ -61,6 +61,7 @@ header {
     border-radius: 15px;
     display: none;
     padding: 20px 35px;
+    z-index: 1;
 
     ul {
         display: block;
@@ -88,8 +89,30 @@ header {
     border-radius: 15px;
     display: none;
     padding: 20px 35px;
+    z-index: 1;
 
     ul {
         display: block;
     }
+}
+
+//Carousel
+.carousel-indicators {
+    li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+
+    .active {
+        background-color: grey;
+    }
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+    font-weight: 100;
+    color: white;
 }
