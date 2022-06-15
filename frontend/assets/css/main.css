@@ -105,20 +105,54 @@ header {
   display: block;
 }
 
-.carousel-indicators li {
+.architecture-carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 100%;
 }
 
-.carousel-indicators .active {
+.architecture-carousel-indicators .active {
   background-color: grey;
 }
 
-.carousel-content {
+.architecture-carousel-content {
   position: absolute;
-  bottom: 0;
+  bottom: 3%;
   left: 3%;
   font-weight: 100;
   color: white;
+}
+
+#buildings .buildings-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+#buildings .buildings-card .buildings-card-item {
+  width: 360.33px;
+  height: 404.7px;
+}
+
+#buildings .buildings-summary {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#buildings .buildings-summary p {
+  position: relative;
+  font-size: 20px;
+  left: 18%;
+  width: 63%;
+}
+
+.buildings-carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.buildings-carousel-indicators .active {
+  background-color: grey;
 }
