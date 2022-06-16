@@ -12,5 +12,8 @@ namespace backend.ViewModels
         public SliderSummary SliderSummary { get; set; }
         public WorkSummary WorkSummary { get; set; }
         public List<WorkSlider> WorkSliders { get; set; }
+        public List<News> News { get; set; }
+        public List<Testimonials> Testimonials { get; set; }
+        public List<Summary> Summaries { get; set; }
     }
 }

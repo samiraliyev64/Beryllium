@@ -17,5 +17,8 @@ namespace backend.DAL
         public DbSet<SliderSummary> SliderSummary { get; set; }
         public DbSet<WorkSummary> WorkSummary { get; set; }
         public DbSet<WorkSlider> WorkSliders { get; set; }
+        public DbSet<News> News { get; set; }
+        public DbSet<Testimonials> Testimonials { get; set; }
+        public DbSet<Summary> Summaries { get; set; }
     }
 }

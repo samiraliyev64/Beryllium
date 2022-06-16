@@ -23,7 +23,10 @@ namespace backend.Controllers
                 Sliders = _context.Sliders.ToList(),
                 SliderSummary = _context.SliderSummary.FirstOrDefault(),
                 WorkSummary = _context.WorkSummary.FirstOrDefault(),
-                WorkSliders = _context.WorkSliders.ToList()
+                WorkSliders = _context.WorkSliders.ToList(),
+                News = _context.News.ToList(),
+                Testimonials = _context.Testimonials.ToList(),
+                Summaries = _context.Summaries.ToList()
             };
             return View(home);
         }

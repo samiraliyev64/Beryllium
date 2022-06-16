@@ -103,64 +103,30 @@
                 <div class="news">
                     <h1 class="news-text">News</h1>
                     <div class="news-item-container">
-                        <div class="news-item">
-                            <h6>SEPTEMBER 10, 2016</h6>
-                            <a href="#">
-                                <h1>Manila Bridge Re-construction</h1>
-                            </a>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim
-                                et
-                                urna sagittis, rhoncus euismod...
-                            </p>
-                        </div>
-                        <hr>
-                        <div class="news-item">
-                            <h6>SEPTEMBER 10, 2016</h6>
-                            <a href="#">
-                                <h1>Manila Bridge Re-construction</h1>
-                            </a>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim
-                                et
-                                urna sagittis, rhoncus euismod...
-                            </p>
-                        </div>
-                        <hr>
-                        <div class="news-item">
-                            <h6>SEPTEMBER 10, 2016</h6>
-                            <a href="#">
-                                <h1>Manila Bridge Re-construction</h1>
-                            </a>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim
-                                et
-                                urna sagittis, rhoncus euismod...
-                            </p>
-                        </div>
-                        <hr>
+                        @foreach (var news in Model.News)
+                        {
+                            <div class="news-item">
+                                <h6>@news.Date</h6>
+                                <a href="#">
+                                    <h1>@news.Title</h1>
+                                </a>
+                                <p>@news.Description</p>
+                            </div>
+                            <hr>
+                        }
                         <button>MORE NEWS</button>
                     </div>
                 </div>
                 <div class="testimonial">
                     <h1>Testimonials</h1>
                     <div class="testimonials-item-container">
-                        <div class="testimonials-item">
-                            <p id="text">
-                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                                placerat enim et
-                                urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.“
-                            </p>
-                            <p id="author">— John Doe Dueller</p>
-                        </div>
-                        <div class="testimonials-item">
-                            <p id="text">
-                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                                placerat enim et
-                                urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.“
-                            </p>
-                            <p id="author">— John Doe Dueller</p>
-                        </div>
+                        @foreach (var testimonial in Model.Testimonials)
+                        {
+                            <div class="testimonials-item">
+                                <p id="text">@testimonial.Description</p>
+                                <p id="author">@testimonial.Author</p>
+                            </div>
+                        }
                     </div>
                 </div>
             </div>
