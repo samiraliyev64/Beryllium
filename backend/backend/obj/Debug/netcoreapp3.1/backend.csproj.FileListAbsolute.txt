@@ -149,3 +149,6 @@ C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Ra
 C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewImports.cshtml.g.cs
 C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewStart.cshtml.g.cs
 C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Slider\Index.cshtml.g.cs
+C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Slider\Create.cshtml.g.cs
+C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Slider\Update.cshtml.g.cs
