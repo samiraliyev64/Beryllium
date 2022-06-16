@@ -145,3 +145,7 @@ C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\bin\Debug\netcoreapp3.1\ru
 C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewStart.cshtml.g.cs
+C:\Users\HP\Desktop\asp.net\Beryllium\backend\backend\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Dashboard\Index.cshtml.g.cs
